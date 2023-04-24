@@ -1,0 +1,6 @@
+a = int(input("A : "))
+b = int(input("B : "))
+x = int(input("X : "))
+ans = int(((x/a) - (x/b))*3600)
+print("Wait :",ans,"sec")
+print(f'{ans}')

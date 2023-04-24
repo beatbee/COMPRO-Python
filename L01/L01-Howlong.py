@@ -1,0 +1,5 @@
+a = input("First sentence: ")
+b = input("Second sentence: ")
+c = input("Third sentence: ")
+ans = (len(a)+len(b))*len(c)
+print(ans)

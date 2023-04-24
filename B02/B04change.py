@@ -1,0 +1,35 @@
+cost = int(input())
+a,b,c,d,e,f,g,h=0,0,0,0,0,0,0,0
+while cost>0:
+    if cost>=1000:
+        cost-=1000
+        a+=1
+    elif cost>=500:
+        cost-=500
+        b+=1
+    elif cost>= 100:
+        cost-=100
+        c+=1
+    elif cost>=50:
+        cost-=50
+        d+=1
+    elif cost>= 20:
+        cost-=20
+        e+=1
+    elif cost>=10:
+        cost-=10
+        f+=1
+    elif cost>=5:
+        cost-=5
+        g+=1
+    else:
+        cost-=1
+        h+=1
+print("1000 =>",a) 
+print("500 =>",b)
+print("100 =>",c)
+print("50 =>",d)
+print("20 =>",e)
+print("10 =>",f)
+print("5 =>",g)
+print("1 =>",h)

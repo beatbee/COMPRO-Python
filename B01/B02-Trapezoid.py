@@ -1,0 +1,5 @@
+print("Please specify the properties of your trapezoid.")
+l1 = float(input("Length of parallel side 1: "))
+l2 = float(input("Length of parallel side 2: "))
+h = float(input("Height: "))
+print(f"The trapezoid area is {((l1+l2)*h)/2:.2f}")
